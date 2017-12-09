@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cocktail chooses YOU!</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<!-- ON ALL SLIDES ==================== -->
+
+    <img src="images/bottom_left_corner.png" alt="" class="bottomLeft">
+    <img src="images/top_right_corner.png" alt="" class="topRight">
+    
+<!-- STARTING PAGE ==================== -->
+
+    <main class="question main show">
+        <div class="main__image">
+            <img src="images/bartender.png" alt="">
+        </div>
+        <div class="main__intro">
+            <div class="main__intro--center">
+                <img src="images/divider.png" alt="">
+                <h1>Cocktail Quiz & Recipe Generator</h1>
+                <h2>Discover Your New Favourite Cocktail!</h2>
+                <p>Answer the following questions and we'll give you a new recipe to try out! Don't like the cocktail we give you? Toss it and we'll give you other options based on your preferences.</p>
+                <button class="question__startBtn">Let's begin!</button>
+                <img src="images/divider.png" alt="">
+            </div>
+        </div>
+        <!-- <img src="images/bottom_left_corner.png" alt="" class="bottomLeft">
+        <img src="images/top_right_corner.png" alt="" class="topRight"> -->
+    </main>
+
+<!-- QUESTION #1 ====================== -->
+
+    <section class="question questionOne">
+        <div class="question__progressbar">
+            <!-- not sure what to put here yet -->
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+        </div>
+        <div class="question__container">
+            <div class="question__options">
+                <!-- <h2 class="question__heading">Question 1</h2> -->
+                <h2>What is your favourite flavour?</h2>
+                <!-- <form action="" class="question__form">
+                    <label for="bitter">Bitter</label>
+                    <input type="radio" name="flavour" value="bitter" id="bitter">
+                    <label for="sweet">Sweet</label>
+                    <input type="radio" name="flavour" value="sweet" id="sweet">
+                    <label for="sour">Sour</label>
+                    <input type="radio" name="flavour" value="sour" id="sour">
+                    <label for="tangy">Tangy</label>
+                    <input type="radio" name="flavour" value="tangy" id="tangy">
+                    <label for="salty">Salty</label>
+                    <input type="radio" name="flavour" value="salty" id="salty">
+                    <button class="question__submitBtn">Next Question!</button>
+                </form>             -->
+                <form action="" class="question__form">
+                    <ul>
+                        <li>                            
+                            <input type="radio" name="flavour" value="bitter" id="bitter">
+                            <label for="bitter">Bitter</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="flavour" value="sweet" id="sweet">
+                            <label for="sweet">Sweet</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="flavour" value="sour" id="sour">
+                            <label for="sour">Sour</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="flavour" value="tangy" id="tangy">
+                            <label for="tangy">Tangy</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="flavour" value="salty" id="salty">
+                            <label for="salty">Salty</label>
+                            <div class="check"></div>
+                        </li>
+                    </ul>
+                    <button class="question__submitBtn">Next Question!</button>
+                </form>
+            </div>
+            <div class="question__image">
+                <img src="images/drink_1.png" alt="">
+            </div>
+
+        </div>
+        
+    </section>
+
+<!-- QUESTION #2 ====================== -->
+
+    <section class="question questionTwo">
+        <div class="question__progressbar">
+            <!-- not sure what to put here yet -->
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+        </div>
+        <div class="question__image">
+            <img src="" alt="">
+        </div>
+        <div class="question__container">
+            <div class="question__options">
+                <!-- <h2 class="question__heading">Question 2</h2> -->
+                <h2>Who are you drinking with?</h2>
+                <form action="" class="question__form">
+                    <ul>
+                        <li>
+                            <input type="radio" name="drinkingCompanion" value="partner" id="partner">
+                            <label for="partner">With my partner.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="drinkingCompanion" value="grandma" id="grandma">
+                            <label for="grandma">With my grandma.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="drinkingCompanion" value="alone" id="alone">
+                            <label for="alone">No one, I don't wanna share!</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="drinkingCompanion" value="friends" id="friends">
+                            <label for="friends">With my friends.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="drinkingCompanion" value="coworkers" id="coworkers">
+                            <label for="coworkers">With my coworkers.</label>
+                            <div class="check"></div>
+                        </li>
+                    </ul>
+                    <button class="question__submitBtn">Next Question!</button>
+                </form>
+            </div>
+            <div class="question__image">
+                <img src="images/drink_2.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+<!-- QUESTION #3 ====================== -->
+
+    <section class="question questionThree">
+        <div class="question__progressbar">
+            <!-- not sure what to put here yet -->
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+        </div>
+        <div class="question__image">
+            <img src="" alt="">
+        </div>
+        <div class="question__container">
+            <div class="question__options">
+                <!-- <h2 class="question__heading">Question 3</h2> -->
+                <h2>How complicated of a drink are you looking to make?</h2>
+                <form action="" class="question__form">
+                    <ul>
+                        <li>
+                            <input type="radio" name="level" value="beginner" id="beginner">
+                            <label for="beginner">Beginner level.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="level" value="zero" id="zero">
+                            <label for="zero">I'm incapable of mixing two liquids together.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="level" value="expert" id="expert">
+                            <label for="expert">I am a mixology expert and can handle anything.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="level" value="moderate" id="moderate">
+                            <label for="moderate">I want a moderate challenge.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="level" value="quick" id="quick">
+                            <label for="quick">Whatever is the quickest drink to make.</label>
+                            <div class="check"></div>
+                        </li>
+                        <button class="question__submitBtn">Next Question!</button>
+
+                    </ul>
+                </form>
+            </div>
+            <div class="question__image">
+                <img src="images/drink_3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- QUESTION #4 ====================== -->
+
+    <section class="question questionFour">
+        <div class="question__progressbar">
+            <!-- not sure what to put here yet -->
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+        </div>
+        <div class="question__image">
+            <img src="" alt="">
+        </div>
+        <div class="question__container">
+            <div class="question__options">
+                <!-- <h2 class="question__heading">Question 4</h2> -->
+                <h2>Which option best fits your personality?</h2>
+                <form action="" class="question__form">
+                    <ul>
+                        <li>
+                            <input type="radio" name="personality" value="party" id="party">
+                            <label for="party">I'm the life of the party!</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="personality" value="adventure" id="adventure">
+                            <label for="adventure">I'm always up for an adventure.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="personality" value="habit" id="habit">
+                            <label for="habit">I'm a creature of habit.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="personality" value="anything" id="anything">
+                            <label for="anything">I'll try anything once.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="personality" value="stoic" id="stoic">
+                            <label for="stoic">I'm apathetic.</label>
+                            <div class="check"></div>
+                        </li>
+
+                    </ul>
+                    <button class="question__submitBtn">Next Question!</button>
+                </form>
+            </div>
+            <div class="question__image">
+                <img src="images/drink_4.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+<!-- QUESTION #5 ====================== -->
+
+    <section class="question questionFive">
+        <div class="question__progressbar">
+            <!-- not sure what to put here yet -->
+            
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+            <div class="outerBox">
+                <div class="innerBox"></div>
+            </div>
+        </div>
+        <div class="question__container">
+            <div class="question__options">
+                <h2>Where are you looking to consume your drink?</h2>
+                <form action="" class="question__form">
+                    <ul>
+                        <li>
+                            <input type="radio" name="location" value="kitchen" id="kitchen">
+                            <label for="kitchen">At home in my kitchen.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="location" value="patio" id="patio">
+                            <label for="patio">On my patio.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="location" value="friendHome" id="friendHome">
+                            <label for="friendHome">At a friend's/family member's house.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="location" value="pool" id="pool">
+                            <label for="pool">By the pool.</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" name="location" value="bath" id="bath">
+                            <label for="bath">In the bathtub.</label>
+                            <div class="check"></div>
+                        </li>
+
+                    </ul>
+                    <button class="question__submitBtn question__lastBtn">Give me a drink!</button>
+                    <!-- does the button need to be within the form? -->
+                </form>
+            </div>
+            <div class="question__image">
+                <img src="images/drink_2.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+<!-- RESULT PAGE ====================== -->
+
+    <section class="question result">
+        <div class="question__progressbar">
+            <!-- not sure what to put here yet -->
+        </div>
+        <div class="result__recipe">
+            <h2>Your cocktail is...</h2>
+        </div>
+        <div class="answerHere">
+
+        </div>
+        <ul class="listHere">
+
+        </ul>
+        <div class="directionsHere">
+
+        </div>
+        <button class="question__resetBtn">Take quiz again</button>
+        <button class="shuffle">Different recipe</button>
+    </section>
+
+<script src="underscore.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<script src="main.js"></script>
+    </body>
+</html>
