@@ -240,11 +240,9 @@ input[type=radio]:checked ~ label {
 /* STARTING PAGE ==================== */
 .main {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 40px 100px;
@@ -269,11 +267,9 @@ input[type=radio]:checked ~ label {
   padding: 0 40px;
   margin-bottom: 0;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
   .main__intro h1 {
@@ -306,7 +302,6 @@ input[type=radio]:checked ~ label {
   padding: 40px 100px; }
   .questionOne .question__progressbar {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     position: absolute;
@@ -314,7 +309,6 @@ input[type=radio]:checked ~ label {
     right: 341px; }
   .questionOne .question__container {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     .questionOne .question__container .question__options {
@@ -325,18 +319,15 @@ input[type=radio]:checked ~ label {
         background: none;
         color: white;
         text-transform: uppercase;
-        display: block;
         margin: 30px auto 40px auto;
         padding: 10px 40px;
         border: 2px solid white;
         font-weight: 700; }
     .questionOne .question__container .question__image {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
 
@@ -345,15 +336,12 @@ input[type=radio]:checked ~ label {
   width: 50px;
   height: 50px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-transform: rotate(45deg);
@@ -370,7 +358,6 @@ input[type=radio]:checked ~ label {
   padding: 40px 100px; }
   .questionTwo .question__progressbar {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     position: absolute;
@@ -378,7 +365,6 @@ input[type=radio]:checked ~ label {
     right: 341px; }
   .questionTwo .question__container {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     .questionTwo .question__container .question__options {
@@ -389,18 +375,15 @@ input[type=radio]:checked ~ label {
         background: none;
         color: white;
         text-transform: uppercase;
-        display: block;
         margin: 30px auto 40px auto;
         padding: 10px 40px;
         border: 2px solid white;
         font-weight: 700; }
     .questionTwo .question__container .question__image {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
       .questionTwo .question__container .question__image img {
@@ -411,15 +394,12 @@ input[type=radio]:checked ~ label {
   width: 50px;
   height: 50px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-transform: rotate(45deg);
@@ -436,7 +416,6 @@ input[type=radio]:checked ~ label {
   padding: 40px 100px; }
   .questionThree .question__progressbar {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     position: absolute;
@@ -444,7 +423,6 @@ input[type=radio]:checked ~ label {
     right: 341px; }
   .questionThree .question__container {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     .questionThree .question__container .question__options {
@@ -455,18 +433,15 @@ input[type=radio]:checked ~ label {
         background: none;
         color: white;
         text-transform: uppercase;
-        display: block;
         margin: 30px auto 40px auto;
         padding: 10px 40px;
         border: 2px solid white;
         font-weight: 700; }
     .questionThree .question__container .question__image {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
       .questionThree .question__container .question__image img {
@@ -477,15 +452,12 @@ input[type=radio]:checked ~ label {
   width: 50px;
   height: 50px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-transform: rotate(45deg);
@@ -502,7 +474,6 @@ input[type=radio]:checked ~ label {
   padding: 40px 100px; }
   .questionFour .question__progressbar {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     position: absolute;
@@ -510,29 +481,25 @@ input[type=radio]:checked ~ label {
     right: 341px; }
   .questionFour .question__container {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     .questionFour .question__container .question__options {
       width: 50%;
       margin-left: 50px;
-      margin-top: 100px; }
+      margin-top: 50px; }
       .questionFour .question__container .question__options button {
         background: none;
         color: white;
         text-transform: uppercase;
-        display: block;
         margin: 30px auto 40px auto;
         padding: 10px 40px;
         border: 2px solid white;
         font-weight: 700; }
     .questionFour .question__container .question__image {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
 
@@ -541,15 +508,12 @@ input[type=radio]:checked ~ label {
   width: 50px;
   height: 50px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-transform: rotate(45deg);
@@ -566,7 +530,6 @@ input[type=radio]:checked ~ label {
   padding: 40px 100px; }
   .questionFive .question__progressbar {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     position: absolute;
@@ -574,7 +537,6 @@ input[type=radio]:checked ~ label {
     right: 341px; }
   .questionFive .question__container {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     .questionFive .question__container .question__options {
@@ -585,18 +547,15 @@ input[type=radio]:checked ~ label {
         background: none;
         color: white;
         text-transform: uppercase;
-        display: block;
         margin: 30px auto 40px auto;
         padding: 10px 40px;
         border: 2px solid white;
         font-weight: 700; }
     .questionFive .question__container .question__image {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
       .questionFive .question__container .question__image img {
@@ -607,15 +566,12 @@ input[type=radio]:checked ~ label {
   width: 50px;
   height: 50px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-transform: rotate(45deg);
@@ -627,3 +583,40 @@ input[type=radio]:checked ~ label {
   border: 2px solid #e2bd22;
   height: 42px;
   width: 42px; }
+
+.result {
+  padding: 40px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .result .result--left, .result .result--right {
+    width: 50%; }
+  .result .result--right {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .result .result--right button {
+      background: none;
+      color: white;
+      text-transform: uppercase;
+      margin: 30px auto 40px auto;
+      padding: 10px 40px;
+      border: 2px solid white;
+      font-weight: 700; }
+    .result .result--right ul {
+      margin-bottom: 0;
+      margin-top: 40px; }
+    .result .result--right p {
+      margin: 0; }
+  .result .answerHere img {
+    width: 70%; }

@@ -55,6 +55,7 @@
         color: white;
         text-transform: uppercase;
         display: block;
+        
         margin: 30px auto 40px auto;
         padding: 10px 40px;
         border: 2px solid white;
@@ -89,7 +90,7 @@
                 background: none;
                 color: white;
                 text-transform: uppercase;
-                display: block;
+                // display: block;
                 margin: 30px auto 40px auto;
                 padding: 10px 40px;
                 border: 2px solid white;
@@ -147,7 +148,7 @@
                 background: none;
                 color: white;
                 text-transform: uppercase;
-                display: block;
+                // display: block;
                 margin: 30px auto 40px auto;
                 padding: 10px 40px;
                 border: 2px solid white;
@@ -206,7 +207,7 @@
                 background: none;
                 color: white;
                 text-transform: uppercase;
-                display: block;
+                // display: block;
                 margin: 30px auto 40px auto;
                 padding: 10px 40px;
                 border: 2px solid white;
@@ -261,12 +262,13 @@
         .question__options {
             width: 50%;
             margin-left: 50px;
-            margin-top: 100px;
+            // margin-top: 100px;
+            margin-top: 50px;
             button {
                 background: none;
                 color: white;
                 text-transform: uppercase;
-                display: block;
+                // display: block;
                 margin: 30px auto 40px auto;
                 padding: 10px 40px;
                 border: 2px solid white;
@@ -322,7 +324,7 @@
                 background: none;
                 color: white;
                 text-transform: uppercase;
-                display: block;
+                // display: block;
                 margin: 30px auto 40px auto;
                 padding: 10px 40px;
                 border: 2px solid white;
@@ -365,3 +367,35 @@
 //         left: 0;
 //         visibility: hidden;
 //     }
+.result {
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    .result--left, .result--right {
+        width: 50%;
+    }
+    .result--right {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        button {
+            background: none;
+            color: white;
+            text-transform: uppercase;
+            margin: 30px auto 40px auto;
+            padding: 10px 40px;
+            border: 2px solid white;
+            font-weight: 700;
+        }
+        ul {
+            margin-bottom: 0;
+            margin-top: 40px;
+        }
+        p {
+            margin: 0;
+        }
+    }
+    .answerHere img {
+        width: 70%;
+    }
+}

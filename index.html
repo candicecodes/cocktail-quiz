@@ -26,7 +26,8 @@
                 <img src="images/divider.png" alt="">
                 <h1>Cocktail Quiz & Recipe Generator</h1>
                 <h2>Discover Your New Favourite Cocktail!</h2>
-                <p>Answer the following questions and we'll give you a new recipe to try out! Don't like the cocktail we give you? Toss it and we'll give you other options based on your preferences.</p>
+                <!-- <p>Answer the following questions and we'll give you a new recipe to try out! Don't like the cocktail we give you? Toss it and we'll give you other options based on your preferences.</p> -->
+                <p>Answer the following questions and we'll give you a new recipe to try out based on your preferences!</p>
                 <button class="question__startBtn">Let's begin!</button>
                 <img src="images/divider.png" alt="">
             </div>
@@ -397,20 +398,24 @@
         <div class="question__progressbar">
             <!-- not sure what to put here yet -->
         </div>
-        <div class="result__recipe">
-            <h2>Your cocktail is...</h2>
+        <div class="result--left">
+            <div class="result__recipe">
+                <h2>Your cocktail is...</h2>
+            </div>
+            <div class="answerHere">
+    
+            </div>
         </div>
-        <div class="answerHere">
-
+        <div class="result--right">
+            <ul class="listHere">
+    
+            </ul>
+            <div class="directionsHere">
+    
+            </div>
+            <button class="question__resetBtn">Take quiz again</button>
+            <!-- <button class="shuffle">Different recipe</button> -->
         </div>
-        <ul class="listHere">
-
-        </ul>
-        <div class="directionsHere">
-
-        </div>
-        <button class="question__resetBtn">Take quiz again</button>
-        <button class="shuffle">Different recipe</button>
     </section>
 
 <script src="underscore.js"></script>
