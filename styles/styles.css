@@ -594,6 +594,12 @@ input[type=radio]:checked ~ label {
   align-items: center; }
   .result .result--left, .result .result--right {
     width: 50%; }
+  .result .result--left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .result .result--left .result__recipe {
+      margin: 0 auto; }
   .result .result--right {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -620,3 +626,5 @@ input[type=radio]:checked ~ label {
       margin: 0; }
   .result .answerHere img {
     width: 70%; }
+  .result .listHere {
+    padding: 0; }

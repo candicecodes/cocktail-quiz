@@ -374,6 +374,15 @@
     .result--left, .result--right {
         width: 50%;
     }
+    .result--left {
+        display: flex;
+        .result__recipe {
+            margin: 0 auto;
+        }
+        // img {
+        //     max-width: 300px;
+        // }
+    }
     .result--right {
         align-items: center;
         flex-direction: column;
@@ -397,5 +406,8 @@
     }
     .answerHere img {
         width: 70%;
+    }
+    .listHere {
+        padding: 0;
     }
 }
