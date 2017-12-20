@@ -379,14 +379,19 @@
         .result__recipe {
             margin: 0 auto;
         }
-        // img {
-        //     max-width: 300px;
-        // }
+        .answerHere {
+            display: flex;
+            flex-direction: column;
+        }
+        img {
+            margin: 0 auto;
+        }
     }
     .result--right {
         align-items: center;
         flex-direction: column;
         display: flex;
+        padding-right: 30px;
         button {
             background: none;
             color: white;
@@ -399,6 +404,9 @@
         ul {
             margin-bottom: 0;
             margin-top: 40px;
+        }
+        li {
+            height: 40px;
         }
         p {
             margin: 0;

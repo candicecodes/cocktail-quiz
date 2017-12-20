@@ -600,6 +600,16 @@ input[type=radio]:checked ~ label {
     display: flex; }
     .result .result--left .result__recipe {
       margin: 0 auto; }
+    .result .result--left .answerHere {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .result .result--left img {
+      margin: 0 auto; }
   .result .result--right {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -610,7 +620,8 @@ input[type=radio]:checked ~ label {
     flex-direction: column;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    padding-right: 30px; }
     .result .result--right button {
       background: none;
       color: white;
@@ -622,6 +633,8 @@ input[type=radio]:checked ~ label {
     .result .result--right ul {
       margin-bottom: 0;
       margin-top: 40px; }
+    .result .result--right li {
+      height: 40px; }
     .result .result--right p {
       margin: 0; }
   .result .answerHere img {
