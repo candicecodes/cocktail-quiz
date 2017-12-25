@@ -76,6 +76,7 @@
 
 .question__container {
     justify-content: center;
+    height: 414px;
 }
 
 h2 {
@@ -383,6 +384,9 @@ h2 {
     padding: 40px 100px;
     display: flex;
     align-items: center;
+    h2 {
+        margin: 0;
+    }
     .result--left, .result--right {
         width: 50%;
     }
@@ -426,6 +430,7 @@ h2 {
     }
     .answerHere img {
         width: 70%;
+        border: 2px solid $tertiaryColour;
     }
     .listHere {
         padding: 0;
