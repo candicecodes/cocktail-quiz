@@ -107,6 +107,13 @@ h2 {
             width: 50%;
             // margin-left: 50px;
             // margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            .question__form {
+                margin: 0 auto;
+                width: 75%;
+            }
             button {
                 background: none;
                 color: white;
@@ -121,6 +128,10 @@ h2 {
         .question__image {
             display: flex;
             align-items: center;
+            width: 50%;
+            img {
+                margin: 0 auto;
+            }
         }
     }
 }
@@ -174,11 +185,15 @@ h2 {
     }
     .question__container {
         display: flex;
-        // justify-content: space-between;
         .question__options {
             width: 50%;
-            // margin-left: 50px;
-            // margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .question__form {
+                margin: 0 auto;
+                width: 75%;
+            }
             button {
                 background: none;
                 color: white;
@@ -193,8 +208,10 @@ h2 {
         .question__image {
             display: flex;
             align-items: center;
+            width: 50%;
             img {
                 max-height: 60vh;
+                margin: 0 auto;
             }
         }
     }
@@ -263,10 +280,12 @@ h2 {
             }
         }
         .question__image {
+            width: 50%;
             display: flex;
             align-items: center;
             img {
                 max-height: 90vh;
+                margin: 0 auto;
             }
         }
     }
@@ -339,6 +358,10 @@ h2 {
         .question__image {
             display: flex;
             align-items: center;
+            width: 50%;
+            img {
+                margin: 0 auto;
+            }
         }
     }
 }
@@ -406,10 +429,12 @@ h2 {
             }
         }
         .question__image {
+            width: 505;
             display: flex;
             align-items: center;
             img {
                 max-height: 60vh;
+                margin: 0 auto;
             }
         }
     }
