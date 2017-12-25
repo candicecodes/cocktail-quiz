@@ -278,8 +278,7 @@ input[type=radio]:checked ~ label {
     line-height: 1;
     margin-top: 40px; }
   .main__intro h2 {
-    color: #38b7a7;
-    margin-bottom: 0; }
+    color: #38b7a7; }
   .main__intro img {
     display: block;
     margin: 0 auto;
@@ -307,9 +306,18 @@ input[type=radio]:checked ~ label {
   -ms-flex-align: center;
   align-items: center; }
 
+.question__container {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+h2 {
+  margin-bottom: 0; }
+
 /* QUESTION #1 ====================== */
 .questionOne {
-  padding: 40px 100px; }
+  padding: 40px 100px;
+  position: relative; }
   .questionOne .question__progressbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -376,9 +384,7 @@ input[type=radio]:checked ~ label {
     display: -ms-flexbox;
     display: flex; }
     .questionTwo .question__container .question__options {
-      width: 50%;
-      margin-left: 50px;
-      margin-top: 100px; }
+      width: 50%; }
       .questionTwo .question__container .question__options button {
         background: none;
         color: white;
@@ -434,9 +440,7 @@ input[type=radio]:checked ~ label {
     display: -ms-flexbox;
     display: flex; }
     .questionThree .question__container .question__options {
-      width: 80%;
-      margin-left: 50px;
-      margin-top: 100px; }
+      width: 50%; }
       .questionThree .question__container .question__options button {
         background: none;
         color: white;
@@ -492,9 +496,7 @@ input[type=radio]:checked ~ label {
     display: -ms-flexbox;
     display: flex; }
     .questionFour .question__container .question__options {
-      width: 50%;
-      margin-left: 50px;
-      margin-top: 50px; }
+      width: 50%; }
       .questionFour .question__container .question__options button {
         background: none;
         color: white;
@@ -548,9 +550,7 @@ input[type=radio]:checked ~ label {
     display: -ms-flexbox;
     display: flex; }
     .questionFive .question__container .question__options {
-      width: 50%;
-      margin-left: 50px;
-      margin-top: 100px; }
+      width: 50%; }
       .questionFive .question__container .question__options button {
         background: none;
         color: white;
