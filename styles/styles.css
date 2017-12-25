@@ -326,6 +326,8 @@ h2 {
     position: absolute;
     top: 27px;
     right: 341px; }
+    .questionOne .question__progressbar :not(:first-child), .questionOne .question__progressbar :not(:first-child) > .innerBox {
+      border: 3px solid #75620f; }
   .questionOne .question__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -380,6 +382,26 @@ h2 {
     position: absolute;
     top: 27px;
     right: 341px; }
+    .questionTwo .question__progressbar .outerBox:first-child > .innerBox {
+      background: #e2bd22;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .questionTwo .question__progressbar .outerBox:first-child > .innerBox img {
+        -webkit-transform: rotate(315deg);
+        -ms-transform: rotate(315deg);
+        transform: rotate(315deg); }
+    .questionTwo .question__progressbar :nth-child(3), .questionTwo .question__progressbar :nth-child(3) > .innerBox,
+    .questionTwo .question__progressbar :nth-child(4), .questionTwo .question__progressbar :nth-child(4) > .innerBox,
+    .questionTwo .question__progressbar :nth-child(5), .questionTwo .question__progressbar :nth-child(5) > .innerBox,
+    .questionTwo .question__progressbar :nth-child(6), .questionTwo .question__progressbar :nth-child(6) > .innerBox {
+      border: 3px solid #75620f; }
   .questionTwo .question__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -436,6 +458,25 @@ h2 {
     position: absolute;
     top: 27px;
     right: 341px; }
+    .questionThree .question__progressbar .outerBox:first-child > .innerBox, .questionThree .question__progressbar .outerBox:nth-child(2) > .innerBox {
+      background: #e2bd22;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .questionThree .question__progressbar .outerBox:first-child > .innerBox img, .questionThree .question__progressbar .outerBox:nth-child(2) > .innerBox img {
+        -webkit-transform: rotate(315deg);
+        -ms-transform: rotate(315deg);
+        transform: rotate(315deg); }
+    .questionThree .question__progressbar :nth-child(4), .questionThree .question__progressbar :nth-child(4) > .innerBox,
+    .questionThree .question__progressbar :nth-child(5), .questionThree .question__progressbar :nth-child(5) > .innerBox,
+    .questionThree .question__progressbar :nth-child(6), .questionThree .question__progressbar :nth-child(6) > .innerBox {
+      border: 3px solid #75620f; }
   .questionThree .question__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -492,6 +533,26 @@ h2 {
     position: absolute;
     top: 27px;
     right: 341px; }
+    .questionFour .question__progressbar .outerBox:first-child > .innerBox, .questionFour .question__progressbar .outerBox:nth-child(2) > .innerBox,
+    .questionFour .question__progressbar .outerBox:nth-child(3) > .innerBox {
+      background: #e2bd22;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .questionFour .question__progressbar .outerBox:first-child > .innerBox img, .questionFour .question__progressbar .outerBox:nth-child(2) > .innerBox img,
+      .questionFour .question__progressbar .outerBox:nth-child(3) > .innerBox img {
+        -webkit-transform: rotate(315deg);
+        -ms-transform: rotate(315deg);
+        transform: rotate(315deg); }
+    .questionFour .question__progressbar :nth-child(5), .questionFour .question__progressbar :nth-child(5) > .innerBox,
+    .questionFour .question__progressbar :nth-child(6), .questionFour .question__progressbar :nth-child(6) > .innerBox {
+      border: 3px solid #75620f; }
   .questionFour .question__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -546,6 +607,27 @@ h2 {
     position: absolute;
     top: 27px;
     right: 341px; }
+    .questionFive .question__progressbar .outerBox:first-child > .innerBox, .questionFive .question__progressbar .outerBox:nth-child(2) > .innerBox,
+    .questionFive .question__progressbar .outerBox:nth-child(3) > .innerBox,
+    .questionFive .question__progressbar .outerBox:nth-child(4) > .innerBox {
+      background: #e2bd22;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .questionFive .question__progressbar .outerBox:first-child > .innerBox img, .questionFive .question__progressbar .outerBox:nth-child(2) > .innerBox img,
+      .questionFive .question__progressbar .outerBox:nth-child(3) > .innerBox img,
+      .questionFive .question__progressbar .outerBox:nth-child(4) > .innerBox img {
+        -webkit-transform: rotate(315deg);
+        -ms-transform: rotate(315deg);
+        transform: rotate(315deg); }
+    .questionFive .question__progressbar :nth-child(6), .questionFive .question__progressbar :nth-child(6) > .innerBox {
+      border: 3px solid #75620f; }
   .questionFive .question__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -601,6 +683,38 @@ h2 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  .result .question__progressbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 27px;
+    right: 341px; }
+    .result .question__progressbar .outerBox:first-child > .innerBox, .result .question__progressbar .outerBox:nth-child(2) > .innerBox,
+    .result .question__progressbar .outerBox:nth-child(3) > .innerBox,
+    .result .question__progressbar .outerBox:nth-child(4) > .innerBox,
+    .result .question__progressbar .outerBox:nth-child(5) > .innerBox,
+    .result .question__progressbar .outerBox:nth-child(6) > .innerBox {
+      background: #e2bd22;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .result .question__progressbar .outerBox:first-child > .innerBox img, .result .question__progressbar .outerBox:nth-child(2) > .innerBox img,
+      .result .question__progressbar .outerBox:nth-child(3) > .innerBox img,
+      .result .question__progressbar .outerBox:nth-child(4) > .innerBox img,
+      .result .question__progressbar .outerBox:nth-child(5) > .innerBox img,
+      .result .question__progressbar .outerBox:nth-child(6) > .innerBox img {
+        -webkit-transform: rotate(315deg);
+        -ms-transform: rotate(315deg);
+        transform: rotate(315deg); }
+    .result .question__progressbar .outerBox:last-child img {
+      padding-right: 6px; }
   .result h2 {
     margin: 0; }
   .result .result--left, .result .result--right {
