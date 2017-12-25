@@ -278,7 +278,8 @@ input[type=radio]:checked ~ label {
     line-height: 1;
     margin-top: 40px; }
   .main__intro h2 {
-    color: #38b7a7; }
+    color: #38b7a7;
+    margin-bottom: 0; }
   .main__intro img {
     display: block;
     margin: 0 auto;
@@ -297,6 +298,15 @@ input[type=radio]:checked ~ label {
     .main__intro button img {
       max-width: 20px; }
 
+/* QUESTIONS ======================== */
+.question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
 /* QUESTION #1 ====================== */
 .questionOne {
   padding: 40px 100px; }
@@ -312,9 +322,7 @@ input[type=radio]:checked ~ label {
     display: -ms-flexbox;
     display: flex; }
     .questionOne .question__container .question__options {
-      width: 50%;
-      margin-left: 50px;
-      margin-top: 100px; }
+      width: 50%; }
       .questionOne .question__container .question__options button {
         background: none;
         color: white;

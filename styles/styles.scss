@@ -42,6 +42,7 @@
     }
     h2 {
         color: $secondaryColour;
+        margin-bottom: 0;
     }
     img {
         display: block;
@@ -66,6 +67,13 @@
     }
 }
 
+/* QUESTIONS ======================== */
+
+.question {
+    display: flex;
+    align-items: center;
+}
+
 /* QUESTION #1 ====================== */
 
 .questionOne {
@@ -84,8 +92,8 @@
         // justify-content: space-between;
         .question__options {
             width: 50%;
-            margin-left: 50px;
-            margin-top: 100px;
+            // margin-left: 50px;
+            // margin-top: 100px;
             button {
                 background: none;
                 color: white;

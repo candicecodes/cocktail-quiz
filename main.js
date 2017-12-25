@@ -78,8 +78,7 @@ const cocktails =[
 
 
 $(function(){
-    // const index = 0;
-    
+        
     $('.question__resetBtn').on('click', function(e) {
         //reset all data that is accumulated, set all visibility to hidden for everything, but set .main to visible
         e.preventDefault();
