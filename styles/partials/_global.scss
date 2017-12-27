@@ -129,9 +129,10 @@ input[type=radio]:checked ~ label{
   color: $secondaryColour;
 }
 
-.question__options button {
-  position: absolute;
-  bottom: 10px;
-  left: 331px;
+.question__options {
+    button {
+    position: absolute;
+    bottom: 10px;
+    left: 331px;
+    }
 }
-
