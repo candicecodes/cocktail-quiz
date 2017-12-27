@@ -265,7 +265,8 @@ input[type=radio]:checked ~ label {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0; }
+    right: 0;
+    max-height: 80vh; }
 
 .main__intro {
   width: 50%;
@@ -281,9 +282,11 @@ input[type=radio]:checked ~ label {
     font-weight: 700;
     font-size: 3rem;
     line-height: 1;
-    margin-top: 40px; }
+    margin-top: 20px;
+    margin-bottom: 20px; }
   .main__intro h2 {
-    color: #38b7a7; }
+    color: #38b7a7;
+    margin-top: 0; }
   .main__intro img {
     display: block;
     margin: 0 auto;
@@ -295,7 +298,7 @@ input[type=radio]:checked ~ label {
     color: white;
     text-transform: uppercase;
     display: block;
-    margin: 30px auto 40px auto;
+    margin: 0 auto 20px auto;
     padding: 10px 40px;
     border: 2px solid white;
     font-weight: 700; }
