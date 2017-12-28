@@ -169,6 +169,8 @@ img {
   list-style: none;
   margin: 0;
   padding: 0; }
+  .question__options ul li {
+    margin-bottom: 16px; }
 
 ul li {
   color: #AAAAAA;
@@ -186,8 +188,9 @@ ul li label {
   display: block;
   position: relative;
   font-weight: 300;
-  font-size: 1.35em;
-  padding: 10px 25px 40px 80px;
+  font-size: 1em;
+  line-height: 1.1;
+  padding: 14px 25px 40px 80px;
   margin: 10px auto;
   height: 30px;
   z-index: 9;
@@ -241,6 +244,10 @@ input[type=radio]:checked ~ label {
   position: absolute;
   bottom: 10px;
   left: 331px; }
+
+@media (max-width: 1060px) {
+  .topRight, .bottomLeft {
+    display: none; } }
 
 /* STARTING PAGE ==================== */
 .main {

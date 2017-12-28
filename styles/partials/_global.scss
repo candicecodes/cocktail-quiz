@@ -51,7 +51,10 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
-	// overflow: auto;
+  // overflow: auto;
+  li {
+    margin-bottom: 16px;
+  }
 }
 
 ul li{
@@ -72,9 +75,10 @@ ul li label{
   display: block;
   position: relative;
   font-weight: 300;
-  font-size: 1.35em;
+  font-size: 1em;
+  line-height: 1.1;
   // padding: 25px 25px 25px 80px;
-  padding: 10px 25px 40px 80px;
+  padding: 14px 25px 40px 80px;
   margin: 10px auto;
   height: 30px;
   z-index: 9;
