@@ -247,7 +247,15 @@ input[type=radio]:checked ~ label {
 
 @media (max-width: 1060px) {
   .topRight, .bottomLeft {
-    display: none; } }
+    display: none; }
+  main.main {
+    padding: 40px; }
+  .question .questionOne .question__progressbar {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); } }
 
 /* STARTING PAGE ==================== */
 .main {

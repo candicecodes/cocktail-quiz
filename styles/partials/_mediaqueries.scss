@@ -2,4 +2,12 @@
     .topRight, .bottomLeft {
         display: none;
     }
+    main.main {
+        padding: 40px;
+    }
+    .question .questionOne .question__progressbar {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
