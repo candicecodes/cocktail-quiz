@@ -1,6 +1,5 @@
 @import "partials/setup";
 @import "partials/global";
-@import "partials/mediaqueries";
 
 /* STARTING PAGE ==================== */
 
@@ -544,5 +543,52 @@ h2 {
     }
     .listHere {
         padding: 0;
+    }
+}
+
+@media (max-width: 1060px) {
+    .topRight, .bottomLeft {
+        display: none;
+    }
+    main.main {
+        padding: 40px;
+    }
+    .main__intro {
+        padding-right: 0;
+    }
+    .questionOne .question__progressbar,
+    .questionTwo .question__progressbar,
+    .questionThree .question__progressbar,
+    .questionFour .question__progressbar,
+    .questionFive .question__progressbar,
+    .result .question__progressbar {
+        width: 420px;
+        left: 50%;
+        transform: translateX(-50%);
+        //not responding to the left position for some reason
+        & .outerBox:first-child {
+            margin-left:10px;
+        }
+    }
+    .question__options button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 914px) {
+    .result .result--right button.question__resetBtn {
+        margin: 30px auto 0px auto;
+    }
+    .question.questionOne,
+    .question.questionTwo,
+    .question.questionThree,
+    .question.questionFour,
+    .question.questionFive,
+    .question.result {
+        padding: 40px;
+    }
+    .question__container .question__options button.question__submitBtn {
+        margin: 30px auto 10px auto;
     }
 }
