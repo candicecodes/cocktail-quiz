@@ -276,6 +276,17 @@ input[type=radio]:checked ~ label {
     -ms-transform: translateX(-50%);
     transform: translateX(-50%); } }
 
+@media (max-width: 914px) {
+  .result .result--right button.question__resetBtn {
+    margin: 30px auto 0px auto; }
+  .question.questionOne,
+  .question.questionTwo,
+  .question.questionThree,
+  .question.questionFour,
+  .question.questionFive,
+  .question.result {
+    padding: 40px; } }
+
 /* STARTING PAGE ==================== */
 .main {
   display: -webkit-box;
@@ -304,7 +315,7 @@ input[type=radio]:checked ~ label {
 
 .main__intro {
   width: 50%;
-  padding: 0 40px;
+  padding: 0 0 0 40px;
   margin-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -799,8 +810,7 @@ h2 {
     flex-direction: column;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    padding-right: 30px; }
+    display: flex; }
     .result .result--right button {
       background: none;
       color: white;

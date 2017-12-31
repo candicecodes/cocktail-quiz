@@ -27,3 +27,17 @@
         transform: translateX(-50%);
     }
 }
+
+@media (max-width: 914px) {
+    .result .result--right button.question__resetBtn {
+        margin: 30px auto 0px auto;
+    }
+    .question.questionOne,
+    .question.questionTwo,
+    .question.questionThree,
+    .question.questionFour,
+    .question.questionFive,
+    .question.result {
+        padding: 40px;
+    }
+}
