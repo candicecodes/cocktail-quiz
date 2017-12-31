@@ -250,6 +250,8 @@ input[type=radio]:checked ~ label {
     display: none; }
   main.main {
     padding: 40px; }
+  .main__intro {
+    padding-right: 0; }
   .questionOne .question__progressbar,
   .questionTwo .question__progressbar,
   .questionThree .question__progressbar,
@@ -267,7 +269,12 @@ input[type=radio]:checked ~ label {
     .questionFour .question__progressbar .outerBox:first-child,
     .questionFive .question__progressbar .outerBox:first-child,
     .result .question__progressbar .outerBox:first-child {
-      margin-left: 10px; } }
+      margin-left: 10px; }
+  .question__options button {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); } }
 
 /* STARTING PAGE ==================== */
 .main {
