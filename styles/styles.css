@@ -387,6 +387,7 @@ h2 {
   height: 42px;
   width: 42px; }
 
+/* QUESTION #2 ====================== */
 .questionTwo {
   padding: 40px 100px; }
   .questionTwo .question__progressbar {
@@ -465,6 +466,7 @@ h2 {
   height: 42px;
   width: 42px; }
 
+/* QUESTION #3 ====================== */
 .questionThree {
   padding: 40px 100px; }
   .questionThree .question__progressbar {
@@ -542,6 +544,7 @@ h2 {
   height: 42px;
   width: 42px; }
 
+/* QUESTION #4 ====================== */
 .questionFour {
   padding: 40px 100px; }
   .questionFour .question__progressbar {
@@ -619,6 +622,7 @@ h2 {
   height: 42px;
   width: 42px; }
 
+/* QUESTION #5 ====================== */
 .questionFive {
   padding: 40px 100px; }
   .questionFive .question__progressbar {
@@ -698,6 +702,7 @@ h2 {
   height: 42px;
   width: 42px; }
 
+/* RESULT PAGE ====================== */
 .result {
   padding: 40px 100px;
   display: -webkit-box;
@@ -790,6 +795,7 @@ h2 {
   .result .listHere {
     padding: 0; }
 
+/* MEDIA QUERIES ================== */
 @media (max-width: 1060px) {
   .topRight, .bottomLeft {
     display: none; }
@@ -822,7 +828,7 @@ h2 {
     transform: translateX(-50%); } }
 
 @media (max-width: 914px) {
-  .result .result--right button.question__resetBtn {
+  .result--right button.question__resetBtn {
     margin: 30px auto 0px auto; }
   .question.questionOne,
   .question.questionTwo,
@@ -833,3 +839,12 @@ h2 {
     padding: 40px; }
   .question__container .question__options button.question__submitBtn {
     margin: 30px auto 10px auto; } }
+
+@media (max-width: 782px) {
+  .question {
+    height: auto; }
+  .questionThree .question__container {
+    margin-top: 50px;
+    margin-bottom: 70px; }
+  .question__image {
+    display: none; } }

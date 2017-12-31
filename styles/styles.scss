@@ -155,7 +155,7 @@ h2 {
 
 
 
-// /* QUESTION #2 ====================== */
+/* QUESTION #2 ====================== */
 
 .questionTwo {
     padding: 40px 100px;
@@ -233,7 +233,7 @@ h2 {
   width:42px;
 }
 
-// /* QUESTION #3 ====================== */
+/* QUESTION #3 ====================== */
 
 .questionThree {
     padding: 40px 100px;
@@ -308,7 +308,7 @@ h2 {
 }
 
 
-// /* QUESTION #4 ====================== */
+/* QUESTION #4 ====================== */
 
 .questionFour {
     padding: 40px 100px;
@@ -337,7 +337,6 @@ h2 {
     }
     .question__container {
         display: flex;
-        // justify-content: space-between;
         .question__options {
             width: 50%;
             // margin-left: 50px;
@@ -382,7 +381,7 @@ h2 {
   width:42px;
 }
 
-// /* QUESTION #5 ====================== */
+/* QUESTION #5 ====================== */
 
 .questionFive {
     padding: 40px 100px;
@@ -456,14 +455,8 @@ h2 {
   width:42px;
 }
 
-// /* RESULT PAGE ====================== */
+/* RESULT PAGE ====================== */
 
-//     .result {
-//         position: absolute;
-//         top: 0;
-//         left: 0;
-//         visibility: hidden;
-//     }
 .result {
     padding: 40px 100px;
     display: flex;
@@ -546,6 +539,8 @@ h2 {
     }
 }
 
+/* MEDIA QUERIES ================== */
+
 @media (max-width: 1060px) {
     .topRight, .bottomLeft {
         display: none;
@@ -577,7 +572,7 @@ h2 {
 }
 
 @media (max-width: 914px) {
-    .result .result--right button.question__resetBtn {
+    .result--right button.question__resetBtn {
         margin: 30px auto 0px auto;
     }
     .question.questionOne,
@@ -590,5 +585,18 @@ h2 {
     }
     .question__container .question__options button.question__submitBtn {
         margin: 30px auto 10px auto;
+    }    
+}
+
+@media (max-width: 782px) {
+    .question {
+        height: auto;
+    }
+    .questionThree .question__container {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .question__image {
+        display: none;
     }
 }
