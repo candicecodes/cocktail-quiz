@@ -250,12 +250,24 @@ input[type=radio]:checked ~ label {
     display: none; }
   main.main {
     padding: 40px; }
-  .question .questionOne .question__progressbar {
-    right: auto;
+  .questionOne .question__progressbar,
+  .questionTwo .question__progressbar,
+  .questionThree .question__progressbar,
+  .questionFour .question__progressbar,
+  .questionFive .question__progressbar,
+  .result .question__progressbar {
+    width: 420px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    transform: translateX(-50%); } }
+    transform: translateX(-50%); }
+    .questionOne .question__progressbar .outerBox:first-child,
+    .questionTwo .question__progressbar .outerBox:first-child,
+    .questionThree .question__progressbar .outerBox:first-child,
+    .questionFour .question__progressbar .outerBox:first-child,
+    .questionFive .question__progressbar .outerBox:first-child,
+    .result .question__progressbar .outerBox:first-child {
+      margin-left: 10px; } }
 
 /* STARTING PAGE ==================== */
 .main {

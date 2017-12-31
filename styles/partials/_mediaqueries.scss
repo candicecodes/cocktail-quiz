@@ -5,9 +5,18 @@
     main.main {
         padding: 40px;
     }
-    .question .questionOne .question__progressbar {
-        right: auto;
+    .questionOne .question__progressbar,
+    .questionTwo .question__progressbar,
+    .questionThree .question__progressbar,
+    .questionFour .question__progressbar,
+    .questionFive .question__progressbar,
+    .result .question__progressbar {
+        width: 420px;
         left: 50%;
         transform: translateX(-50%);
+        //not responding to the left position for some reason
+        & .outerBox:first-child {
+            margin-left:10px;
+        }
     }
 }
