@@ -615,6 +615,7 @@ h2 {
     .main__intro {
         text-align: center;
         width: 100%;
+        padding: 0;
     }
     .question__container {
         flex-direction: column;
@@ -629,6 +630,7 @@ h2 {
         margin-right: 0;
         position: static;
         transform: none;
+        width: auto;
     }
     .result .result--left, .result .result--right {
         width: 100%;
@@ -665,11 +667,40 @@ h2 {
         .outerBox:last-child img {
             width: 100%;
             padding-left: 2px;
-        }
-        
+        }        
     }
 }
 
 @media (max-width: 480px) {
+    main.main,
+    .question.questionOne,
+    .question.questionTwo,
+    .question.questionThree,
+    .question.questionFour,
+    .question.questionFive,
+    .question.result {
+        padding: 20px;
+    }
+    main.main .main__image {
+        width: 80%;
+    }
+    .questionOne .question__progressbar,
+    .questionTwo .question__progressbar,
+    .questionThree .question__progressbar,
+    .questionFour .question__progressbar,
+    .questionFive .question__progressbar,
+    .result .question__progressbar {
+        // width: auto;
+        display: none;
+    }
+    main .main__image {
+        width: 100%;
+    }
+    .questionOne .question__container, .questionTwo .question__container, .questionThree .question__container, .questionFour .question__container, .questionFive .question__container {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 320px) {
 
 }
