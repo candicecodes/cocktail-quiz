@@ -591,12 +591,46 @@ h2 {
 @media (max-width: 782px) {
     .question {
         height: auto;
+        flex-direction: column;
     }
-    .questionThree .question__container {
+    .questionOne .question__container,
+    .questionTwo .question__container,
+    .questionThree .question__container,
+    .questionFour .question__container,
+    .questionFive .question__container {
         margin-top: 50px;
         margin-bottom: 70px;
     }
-    .question__image {
+    .question .question__container .question__image {
         display: none;
+    }
+    main.question.main.show {
+        display: flex;
+        flex-direction: column;
+    }
+    .main__image img {
+        position: inherit;
+        margin-bottom: 20px;
+    }
+    .main__intro {
+        text-align: center;
+        width: 100%;
+    }
+    .question__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .questionOne .question__progressbar,
+    .questionTwo .question__progressbar,
+    .questionThree .question__progressbar,
+    .questionFour .question__progressbar,
+    .questionFive .question__progressbar,
+    .result .question__progressbar {
+        margin-right: 0;
+        position: static;
+        transform: none;
+    }
+    .result--left {
+        margin-top: 50px;
     }
 }
