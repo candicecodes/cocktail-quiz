@@ -329,7 +329,9 @@ h2 {
 /* QUESTION #1 ====================== */
 .questionOne {
   padding: 40px 100px;
-  position: relative; }
+  position: relative;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
   .questionOne .question__progressbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -389,7 +391,9 @@ h2 {
 
 /* QUESTION #2 ====================== */
 .questionTwo {
-  padding: 40px 100px; }
+  padding: 40px 100px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
   .questionTwo .question__progressbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -468,7 +472,9 @@ h2 {
 
 /* QUESTION #3 ====================== */
 .questionThree {
-  padding: 40px 100px; }
+  padding: 40px 100px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
   .questionThree .question__progressbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -546,7 +552,9 @@ h2 {
 
 /* QUESTION #4 ====================== */
 .questionFour {
-  padding: 40px 100px; }
+  padding: 40px 100px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
   .questionFour .question__progressbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -624,7 +632,9 @@ h2 {
 
 /* QUESTION #5 ====================== */
 .questionFive {
-  padding: 40px 100px; }
+  padding: 40px 100px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
   .questionFive .question__progressbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -742,7 +752,7 @@ h2 {
         -ms-transform: rotate(315deg);
         transform: rotate(315deg); }
     .result .question__progressbar .outerBox:last-child img {
-      padding-right: 6px; }
+      margin-right: 6px; }
   .result h2 {
     margin: 0; }
   .result .result--left, .result .result--right {

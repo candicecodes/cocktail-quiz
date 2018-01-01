@@ -72,6 +72,7 @@
 .question {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .question__container {
@@ -88,6 +89,7 @@ h2 {
 .questionOne {
     padding: 40px 100px;
     position: relative;
+    justify-content: space-around;
     .question__progressbar {
         display: flex;
         position: absolute;
@@ -143,6 +145,7 @@ h2 {
 
 .questionTwo {
     padding: 40px 100px;
+    justify-content: space-around;
     .question__progressbar {
         display: flex;
         position: absolute;
@@ -211,6 +214,7 @@ h2 {
 
 .questionThree {
     padding: 40px 100px;
+    justify-content: space-around;
     .question__progressbar {
         display: flex;
         position: absolute;
@@ -279,6 +283,7 @@ h2 {
 
 .questionFour {
     padding: 40px 100px;
+    justify-content: space-around;
     .question__progressbar {
         display: flex;
         position: absolute;
@@ -345,6 +350,7 @@ h2 {
 
 .questionFive {
     padding: 40px 100px;
+    justify-content: space-around;
     .question__progressbar {
         display: flex;
         position: absolute;
@@ -433,7 +439,7 @@ h2 {
             }
         }
         & .outerBox:last-child img {
-            padding-right: 6px;
+            margin-right: 6px;
         }
     }
     h2 {
