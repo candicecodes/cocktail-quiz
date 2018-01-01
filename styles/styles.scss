@@ -91,9 +91,6 @@ h2 {
     .question__progressbar {
         display: flex;
         position: absolute;
-        // top: 50px;
-        // right: 331px;
-        // left: 50px;
         top: 27px;
         right: 341px;
         & :not(:first-child), :not(:first-child) > .innerBox {
@@ -102,23 +99,12 @@ h2 {
     }
     .question__container {
         display: flex;
-        // justify-content: space-between;
         .question__options {
             width: 50%;
-            // margin-left: 50px;
-            // margin-top: 100px;
-                // display: flex;
-                // flex-direction: column;
-                // align-items: center;
-            .question__form {
-                // margin: 0 auto;
-                // width: 75%;
-            }
             button {
                 background: none;
                 color: white;
                 text-transform: uppercase;
-                // display: block;
                 margin: 30px auto 40px auto;
                 padding: 10px 40px;
                 border: 2px solid white;
@@ -153,8 +139,6 @@ h2 {
   width:42px;
 }
 
-
-
 /* QUESTION #2 ====================== */
 
 .questionTwo {
@@ -162,9 +146,6 @@ h2 {
     .question__progressbar {
         display: flex;
         position: absolute;
-        // top: 50px;
-        // // right: 331px;
-        // left: 50px;
         top: 27px;
         right: 341px;
         & .outerBox:first-child > .innerBox {
@@ -187,13 +168,6 @@ h2 {
         display: flex;
         .question__options {
             width: 50%;
-            // display: flex;
-            // flex-direction: column;
-            // align-items: center;
-            .question__form {
-                // margin: 0 auto;
-                // width: 75%;
-            }
             button {
                 background: none;
                 color: white;
@@ -240,9 +214,6 @@ h2 {
     .question__progressbar {
         display: flex;
         position: absolute;
-        // top: 50px;
-        // // right: 331px;
-        // left: 50px;
         top: 27px;
         right: 341px;
         & .outerBox:first-child > .innerBox, .outerBox:nth-child(2) > .innerBox {
@@ -262,16 +233,12 @@ h2 {
     }
     .question__container {
         display: flex;
-        // justify-content: space-between;
         .question__options {
             width: 50%;
-            // margin-left: 50px;
-            // margin-top: 100px;
             button {
                 background: none;
                 color: white;
                 text-transform: uppercase;
-                // display: block;
                 margin: 30px auto 40px auto;
                 padding: 10px 40px;
                 border: 2px solid white;
@@ -315,9 +282,6 @@ h2 {
     .question__progressbar {
         display: flex;
         position: absolute;
-        // top: 50px;
-        // // right: 331px;
-        // left: 50px;
         top: 27px;
         right: 341px;
         & .outerBox:first-child > .innerBox, .outerBox:nth-child(2) > .innerBox,
@@ -339,14 +303,10 @@ h2 {
         display: flex;
         .question__options {
             width: 50%;
-            // margin-left: 50px;
-            // margin-top: 100px;
-            // margin-top: 50px;
             button {
                 background: none;
                 color: white;
                 text-transform: uppercase;
-                // display: block;
                 margin: 30px auto 40px auto;
                 padding: 10px 40px;
                 border: 2px solid white;
@@ -388,9 +348,6 @@ h2 {
     .question__progressbar {
         display: flex;
         position: absolute;
-        // top: 50px;
-        // // right: 331px;
-        // left: 50px;
         top: 27px;
         right: 341px;
         & .outerBox:first-child > .innerBox, .outerBox:nth-child(2) > .innerBox,
@@ -410,16 +367,12 @@ h2 {
     }
     .question__container {
         display: flex;
-        // justify-content: space-between;
         .question__options {
             width: 50%;
-            // margin-left: 50px;
-            // margin-top: 100px;
             button {
                 background: none;
                 color: white;
                 text-transform: uppercase;
-                // display: block;
                 margin: 30px auto 40px auto;
                 padding: 10px 40px;
                 border: 2px solid white;
@@ -464,9 +417,6 @@ h2 {
     .question__progressbar {
         display: flex;
         position: absolute;
-        // top: 50px;
-        // // right: 331px;
-        // left: 50px;
         top: 27px;
         right: 341px;
         & .outerBox:first-child > .innerBox, .outerBox:nth-child(2) > .innerBox,
@@ -509,7 +459,6 @@ h2 {
         align-items: center;
         flex-direction: column;
         display: flex;
-        // padding-right: 30px;
         button {
             background: none;
             color: white;
@@ -560,7 +509,6 @@ h2 {
         width: 420px;
         left: 50%;
         transform: translateX(-50%);
-        //not responding to the left position for some reason
         & .outerBox:first-child {
             margin-left:10px;
         }
@@ -690,7 +638,6 @@ h2 {
     .questionFour .question__progressbar,
     .questionFive .question__progressbar,
     .result .question__progressbar {
-        // width: auto;
         display: none;
     }
     main .main__image {
