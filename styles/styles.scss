@@ -73,11 +73,13 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 100vw;
 }
 
 .question__container {
     justify-content: center;
     height: 414px;
+    max-width: 1100px;
 }
 
 h2 {
@@ -420,6 +422,7 @@ h2 {
     padding: 40px 100px;
     display: flex;
     align-items: center;
+    width: 100vw;
     .question__progressbar {
         display: flex;
         position: absolute;
@@ -465,6 +468,7 @@ h2 {
         align-items: center;
         flex-direction: column;
         display: flex;
+        align-items: flex-start;
         button {
             background: none;
             color: white;
